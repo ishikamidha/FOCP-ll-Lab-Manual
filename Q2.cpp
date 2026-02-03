@@ -1,0 +1,10 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+    int radius;
+    cin>>radius;
+    float area = 3.14*radius*radius;
+    cout<<area;
+    return 0;
+}
