@@ -5,10 +5,10 @@ private:
     int marks;         //Private: only accessible inside this class 
 
 protected:
-    int rollNumber;    //Private: accessible inside  class (and derived classes)
+    int rollNumber;    //Public: accessible inside  class (and derived classes)
 
 
-public:                //Public: accessible everywhere
+public:                //Protected: accessible everywhere
     string Name;
 
 
